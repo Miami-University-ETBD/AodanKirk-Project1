@@ -147,3 +147,15 @@ This code was borrowed from W3Schools */
 .scroll-container img {
     padding: 10px;
 }
+/* Centers the navagation */
+.van {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+  }
+  /* Colors the navagation on the home page */
+.heading {
+    font-family: 'Rock Salt';
+    background-color: white;
+}
