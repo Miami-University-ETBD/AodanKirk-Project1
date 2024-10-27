@@ -10,7 +10,7 @@ nav.innerHTML = `
     <a href="Venture.html">Venture</a>
     <a href="StellaOctangula.html">Project: Stella Octangula</a>
     <a href="projects.html">Other Projects</a>
-    <a href="Art.html">Art</a>
+    <a href="materialize.html">Art</a>
 `
 // Places an image of Globulus after pressing a button on the secret page after popping up an alert
 function Globulus() {
