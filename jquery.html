@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+</head>
+<body>
+    <h1>Jquery Tests</h1>
+    <script>
+        $(document).ready(function(){
+          $("#hide").click(function(){
+            $("img").hide();
+          });
+          $("#show").click(function(){
+            $("img").show();
+          });
+        });
+    </script>
+    <button id="hide">Kill Them All</button>
+    <button id="show">Resurrect</button>
+        
+    <img src="Images/Globulus.png" alt="Globulus">
+    <script> 
+        $(document).ready(function(){
+          $("#move").click(function(){
+            $("div").animate({left: '250px'});
+          });
+        });
+    </script> 
+
+    <h2>Globulus In a Box</h2>
+    <button id="move">Move the Box</button>
+    <div style="background:#61411a;height:100px;width:100px;position:absolute;"><img src="Images/Globby.png" alt="lil'globby" width="100px" height="100px"></div>
+    <br><br><br><br><br><br>
+        
+    <script>
+      $(document).ready(function(){
+        $("#concil").click(function(){
+          $("#glob1").fadeIn();
+          $("#glob2").fadeIn("slow");
+          $("#glob").fadeIn(3000);
+        });
+      });
+    </script>
+    <h2>Call the Globulus Concil</h2>
+    <button id="concil">Summon Globulus Concil</button><br><br>
+
+    <div id="glob1" style="width:200px;height:500px;display:none;background-color:rgb(255, 255, 255);"><img src="Images/Globulous.webp"></div><br>
+    <div id="glob2" style="width:200px;height:500px;display:none;background-color:rgb(255, 255, 255);"><img src="Images/Globulous.webp"></div><br>
+    <div id="glob3" style="width:200px;height:500px;display:none;background-color:rgb(255, 255, 255);"><img src="Images/Globulous.webp"></div>
+
+    
+</body>
